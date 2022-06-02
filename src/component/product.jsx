@@ -19,7 +19,7 @@ const Product = ({item}) => {
     setProduct(item)
   },[item])
 
-  console.log(product)
+  
 
   const handleClick = () =>{
     try{
