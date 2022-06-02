@@ -29,7 +29,7 @@ const Card = () => {
     }
 
    const handleDelete =async (id) =>{
-       console.log(id)
+       
     try{
         await dispatch(deleteProduct(id,dispatch))
         
