@@ -28,6 +28,8 @@ const App = () => {
       <Route path='/products/find/:id' element={<SinglProduct/>}/>
       <Route path='/cart' element={<Card/>}/>
       <Route path='/pay' element={<Pay/>}/>
+        <Route path='/login' element={<Login/>}/>
+          <Route path='/register' element={<Register/>}/>
       
 
       <Route path='/success' element={<Success/>}/>
