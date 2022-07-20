@@ -16,13 +16,13 @@ const Navbar = () => {
               <p className='p'>English</p>
               <div className='searchContainer'>
                   <input className='input'/>
-                  <Search style={{color:'gray',fontSize:16}}/>
+                  <Search />
               </div>
               
             </div>
-          <div className='center'><h1 className='logo'>jamal</h1></div>
-          <div className='right'>
-            <Link to="/favorit">
+          <div className='center'><h1 className='logo'>Jamal.dev</h1></div>
+          <div  className='right'>
+            <Link className="favorit-icon" to="/favorit">
             <div className='menuitem'>Favorit</div>
             </Link>
               
